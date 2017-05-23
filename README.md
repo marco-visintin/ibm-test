@@ -6,6 +6,6 @@ After that to start the project in development mode please run `npm start` webpa
 and start the project at `localhost:3000`
 
 There is also a 'production' option (the code will be minified and there is some chunk extracting)
-in order to build the project in 'production' please run `npm run build` followed by `npm start:ws`
+in order to build the project in 'production' please run `npm run build` followed by `npm run start:ws`
 
 In order to run the unit tests please run `npm test`
