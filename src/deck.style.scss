@@ -1,0 +1,21 @@
+.deck {
+  position: relative;
+  margin: 0;
+  padding: 0;
+
+  li {
+    list-style: none;
+    position: absolute;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+
+    &:hover:last-child {
+      transition-delay: 0ms !important;
+      transform: translate(40px, 30px) !important;
+    }
+
+    &.all-day-shuffling {
+      transform: rotate(90deg) !important;
+    }
+  }
+}

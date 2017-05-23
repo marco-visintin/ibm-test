@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "es6",
+        "target": "es5",
+        "jsx": "react",
+        "removeComments": true,
+        "sourceMap": true,
+        "allowSyntheticDefaultImports": true
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
